@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link type="Image/x-icon" href="img/favicon.ico" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Denis Novik</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header close">
+            <div class="wrapper">
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-list-item">
+                            <a href="#home" class="header__nav-list-item-link link-active lng-home-menu">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a href="#about" class="header__nav-list-item-link lng-about-menu">
+                                About me
+                            </a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a href="#skills" class="header__nav-list-item-link lng-skills-menu">
+                                Skills
+                            </a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a href="#portfolio" class="header__nav-list-item-link lng-portfolio-menu">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="header__nav-list-item">
+                            <a href="#footer" class="header__nav-list-item-link lng-contacts-menu">
+                                Contacts
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button-close">
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="intro__buttons menu__buttons">
+                    <span data-lang="ru" class="lng-button ru-lng-mobile">ru</span><span class="central-span">|</span><span data-lang="eng" class="lng-button eng-lng-mobile">eng</span> 
+                 </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="intro">
+                <div class="wrapper">
+                    <div class="intro__content">
+                        <h1 class="intro__title lng-title">
+                            Denis <br>
+                            Novik
+                        </h1>
+                        <p class="intro__description lng-description">
+                            UX | UI designer <br>
+                            24 years old, Minsk
+                        </p>
+                        <div class="intro__buttons">
+                           <span data-lang="ru" class="lng-button ru-lng">ru</span><span class="central-span">|</span><span data-lang="eng" class="lng-button eng-lng">eng</span> 
+                        </div>
+                        <button class="button-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                    <div class="intro__pic">
+                        <img src="img/intro.jpg" alt="Autor" class="intro__img">
+                        <img src="img/intro-mobile.jpg" alt="Autor" class="intro__mobile-img">
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="about">
+                <div class="wrapper">
+                    <h2 class="about__title lng-about-title">
+                        About me
+                    </h2>
+                    <p class="about__text lng-about-text-1">
+                        Hi, I'm Denis – UX/UI designer from Minsk.
+                        I'm interested in design and everything connected with it.
+                    </p>
+                    <p class="about__text lng-about-text-2">
+                        I'm studying at courses "Web and mobile design
+                        interfaces" in IT-Academy.
+                    </p>
+                    <p class="about__text lng-about-text-3">
+                        Ready to implement excellent projects <br>
+                        with wonderful people
+                    </p>
+                </div>
+            </section>
+            <section id="skills" class="skills">
+                <div class="wrapper">
+                    <h2 class="skills__title lng-skills-title">
+                        Skills
+                    </h2>
+                    <p class="skills__subtitle lng-skills-subtitle">
+                        I work in such programs as
+                    </p>
+                    <ul class="skills__list">
+                        <li class="skills__list-item">
+                            <img src="img/ps.jpg" alt="" class="skills__list-item-img">
+                            <h3 class="skills__list-item-name">
+                                Adobe <br>
+                                Photoshop
+                            </h3>
+                            <img src="img/rate4.png" alt="" class="skills__list-item-img-rating">
+                        </li>
+                        <li class="skills__list-item">
+                            <img src="img/Ai.jpg" alt="" class="skills__list-item-img">
+                            <h3 class="skills__list-item-name">
+                                Adobe <br>
+                                Illustrator
+                            </h3>
+                            <img src="img/rate3.png" alt="" class="skills__list-item-img-rating">
+                        </li>
+                        <li class="skills__list-item">
+                            <img src="img/Ae.jpg" alt="" class="skills__list-item-img">
+                            <h3 class="skills__list-item-name">
+                                Adobe <br>
+                                After Effects
+                            </h3>
+                            <img src="img/rate4.png" alt="" class="skills__list-item-img-rating">
+                        </li>
+                        <li class="skills__list-item">
+                            <img src="img/Figma.png" alt="" class="skills__list-item-img">
+                            <h3 class="skills__list-item-name">
+                                Figma
+                            </h3>
+                            <img src="img/rate4.png" alt="" class="skills__list-item-img-rating">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="portfolio" class="portfolio">
+                <div class="wrapper">
+                    <h2 class="portfolio__title lng-portfolio-title">
+                        Portfolio
+                    </h2>
+                    <ul class="portfolio__list">
+                        <li class="portfolio__list-item">
+                            <img src="img/fashion-store.jpg" alt="" class="portfolio__list-item-img">
+                            <a href="" class="portfolio__list-item-link">
+                                Online fashion store - Homepage
+                                <span class="portfolio__link-line"></span>
+                            </a>
+                        </li>
+                        <li class="portfolio__list-item">
+                            <img src="img/reebok.jpg" alt="" class="portfolio__list-item-img">
+                            <a href="" class="portfolio__list-item-link">
+                                Reebok Store - Concept
+                                <span class="portfolio__link-line"></span>
+                            </a>
+                        </li>
+                        <li class="portfolio__list-item">
+                            <img src="img/braun.jpg" alt="" class="portfolio__list-item-img">
+                            <a href="" class="portfolio__list-item-link">
+                                Braun Landing Page - Concept
+                                <span class="portfolio__link-line"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer">
+            <div class="wrapper">
+                <h2 class="footer__title lng-contacts-title">
+                    Contacts
+                </h2>
+                <p class="footer__subtitle lng-contacts-subtitle">
+                    Want to know more or just chat?
+                    You are welcome!
+                </p>
+                <a href="" class="footer__link lng-contacts-message">
+                    Send message
+                </a>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-item-link">
+                            <img src="img/in.svg" alt="in">
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-item-link">
+                            <img src="img/insta.svg" alt="instagtam">
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-item-link">
+                            <img src="img/be.svg" alt="Be">
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="" class="footer__list-item-link">
+                            <img src="img/ball.svg" alt="ball">
+                        </a>
+                    </li>
+                </ul>
+                <p class="footer__text lng-contacts-text">
+                    Like me on <br>
+                    LinkedIn, Instagram, Behance, Dribble
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/lang.js"></script>
+</body>
+
+</html>
