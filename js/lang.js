@@ -87,10 +87,8 @@ const lngButtons = document.querySelectorAll('.lng-button')
 
 for (let i = 0; i < lngButtons.length; i++) {
     let button = lngButtons[i]
-    console.log(button)
     button.addEventListener("click", function () {
         let lang = button.getAttribute('data-lang')
-        console.log(lang)
         location.href = window.location.pathname + '#' + lang
         location.reload()
     })
