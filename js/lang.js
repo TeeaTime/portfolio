@@ -1,7 +1,7 @@
 const langArr = {
     "title": {
-        "eng": "Denis Novik",
-        "ru": "Денис Новик"
+        "eng": "Denis <br> Novik",
+        "ru": "Денис <br> Новик"
     },
     "home-menu": {
         "eng": "Home",
@@ -79,7 +79,7 @@ const lngButtonEng = document.querySelector('.eng-lng')
 const lngButtonRuMobile = document.querySelector('.ru-lng-mobile')
 const lngButtonEngMobile = document.querySelector('.eng-lng-mobile')
 
-const allAng = [
+const allLangs = [
     'eng', 'ru'
 ]
 
@@ -98,7 +98,7 @@ function changeLng() {
     let hash = window.location.hash
     hash = hash.substring(1)
     console.log(hash)
-    if (!allAng.includes(hash)) {
+    if (!allLangs.includes(hash)) {
         hash = location.href = window.location.pathname + '#eng'
         location.reload()
     }

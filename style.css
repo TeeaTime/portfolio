@@ -161,7 +161,7 @@ footer {
     margin-top: 4px;
     margin-bottom: 4px;
     color: black !important;
-} 
+}
 
 .about {
     margin-top: 114px;
@@ -257,6 +257,12 @@ footer {
     background-color: #F6F6F6;
 }
 
+.portfolio .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .portfolio__back {
     background-color: #F6F6F6;
     max-width: 100%;
@@ -267,8 +273,6 @@ footer {
     font-size: 34px;
     line-height: 42px;
     color: #070707;
-    max-width: 132px;
-    margin: 0 auto;
     margin-bottom: 47px;
 }
 
@@ -383,9 +387,10 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    h2{
+    h2 {
         font-size: 28px;
     }
+
     .header {
         background-color: #FFFFFF;
         z-index: 11;
@@ -434,9 +439,7 @@ footer {
     .intro {
         margin-top: 66px;
     }
-    .intro__title{
-        max-width: 240px;
-    }
+
     .intro img {
         margin: 0 auto;
     }
@@ -462,9 +465,11 @@ footer {
     .intro__mobile-img {
         display: block;
     }
-    .skills__subtitle{
+
+    .skills__subtitle {
         max-width: 180px;
     }
+
     .button-menu {
         position: absolute;
         right: 0px;
@@ -495,15 +500,18 @@ footer {
     .button-close {
         display: block;
     }
-    .intro__buttons{
+
+    .intro__buttons {
         display: none;
     }
+
     .menu__buttons {
         display: block;
         position: absolute;
         top: 600px;
         right: 20px;
     }
+
     .open {
         height: 100vh;
         transition: 0.3s ease-in-out;
