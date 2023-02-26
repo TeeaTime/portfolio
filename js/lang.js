@@ -25,7 +25,7 @@ const langArr = {
     },
     "description": {
         "eng": 'UX | UI designer <br> 24 years old, Minsk',
-        "ru": 'UX | UI дизайнер <br> 24 года, Минск'
+        "ru": 'UX | UI дизайне <br> 24 года, Минск'
     },
     "about-title": {
         "eng": 'About',
@@ -109,7 +109,7 @@ function changeLng() {
         lngButtonEng.classList.add('lng-on')
         lngButtonEngMobile.classList.add('lng-on')
     }
-    document.querySelector('title').innerHTML = (langArr["title"][hash])
+    // document.querySelector('title').textContent = (langArr["title"][hash])
     for (let key in langArr) {
         document.querySelector('.lng-' + key).innerHTML = langArr[key][hash]
     }
