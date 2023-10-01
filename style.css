@@ -412,23 +412,29 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        height: 100vh;
     }
 
     .header__nav {
         border-bottom: none;
         max-width: 249px;
+        padding-bottom: 0px;
+        height: 100vh;
     }
 
     .header__nav-list {
         flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+        height: 100%;
     }
 
     .header__nav-list-item {
-        margin-bottom: 68px;
+        /* margin-bottom: 68px; */
     }
 
     .header__nav-list-item-link:last-child {
-        margin-bottom: 0px;
+        /* margin-bottom: 0px; */
     }
 
     .header__nav-list-item-link {
@@ -508,7 +514,7 @@ footer {
     .menu__buttons {
         display: block;
         position: absolute;
-        top: 600px;
+        bottom: 185px;
         right: 20px;
     }
 
