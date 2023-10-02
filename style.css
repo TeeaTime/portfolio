@@ -425,7 +425,7 @@ footer {
     .header__nav-list {
         flex-direction: column;
         justify-content: space-between;
-        height: 200px;
+        max-height: 200px;
         height: 100%;
     }
 
